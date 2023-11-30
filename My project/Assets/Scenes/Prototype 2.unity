@@ -684,6 +684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   speed: 10
+  xRange: 10
+  projectilePrefab: {fileID: 1050531287208413889, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
 --- !u!1001 &1449054815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -822,60 +824,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1861484021
+--- !u!1001 &1050531286706281178
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 126446, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_Name
-      value: Food_Organic_Apple_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 1050531287208214817, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1050531287208413889, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
+      propertyPath: m_Name
+      value: Food_Organic_Apple_03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 91d92a6c8a15baa4c80b6b1190ad73c1, type: 3}
